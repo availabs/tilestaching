@@ -1,0 +1,308 @@
+{
+	"cache": {
+		"name": "Disk",
+		"path": "./stache",
+		"dirs": "portable"
+	},
+	"layers": {
+		"newyork2012": {
+			"allowed origin": "*",
+			"provider": {
+				"class": "TileStache.Goodies.VecTiles:Provider",
+				"kwargs": {
+					"clip": true,
+				    "dbinfo":	{
+						"host": "lor.availabs.org",
+						"user": "postgres",
+						"password": "transit",
+						"database": "HPMS",
+						"port": 5432
+					},
+					"queries": [
+								null, null, null, null,
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v <= 1",
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v <= 1",
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v <= 1",
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v <= 1",
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v <= 2",
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v <= 2",
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v <= 3",
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v <= 3",
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v <= 4",
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v <= 4",
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v <= 7"
+								]
+				}
+			}
+		},
+		"newyork2012_1": {
+			"allowed origin": "*",
+			"provider": {
+				"class": "TileStache.Goodies.VecTiles:Provider",
+				"kwargs": {
+					"clip": true,
+				    "dbinfo":	{
+						"host": "lor.availabs.org",
+						"user": "postgres",
+						"password": "transit",
+						"database": "HPMS",
+						"port": 5432
+					},
+					"queries": [
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v = 1"
+								]
+				}
+			}
+		},
+		"newyork2012_2": {
+			"allowed origin": "*",
+			"provider": {
+				"class": "TileStache.Goodies.VecTiles:Provider",
+				"kwargs": {
+					"clip": true,
+				    "dbinfo":	{
+						"host": "lor.availabs.org",
+						"user": "postgres",
+						"password": "transit",
+						"database": "HPMS",
+						"port": 5432
+					},
+					"queries": [
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v = 2"
+								]
+				}
+			}
+		},
+		"newyork2012_3": {
+			"allowed origin": "*",
+			"provider": {
+				"class": "TileStache.Goodies.VecTiles:Provider",
+				"kwargs": {
+					"clip": true,
+				    "dbinfo":	{
+						"host": "lor.availabs.org",
+						"user": "postgres",
+						"password": "transit",
+						"database": "HPMS",
+						"port": 5432
+					},
+					"queries": [
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v = 3"
+								]
+				}
+			}
+		},
+		"newyork2012_4": {
+			"allowed origin": "*",
+			"provider": {
+				"class": "TileStache.Goodies.VecTiles:Provider",
+				"kwargs": {
+					"clip": true,
+				    "dbinfo":	{
+						"host": "lor.availabs.org",
+						"user": "postgres",
+						"password": "transit",
+						"database": "HPMS",
+						"port": 5432
+					},
+					"queries": [
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v = 4"
+								]
+				}
+			}
+		},
+		"newyork2012_5": {
+			"allowed origin": "*",
+			"provider": {
+				"class": "TileStache.Goodies.VecTiles:Provider",
+				"kwargs": {
+					"clip": true,
+				    "dbinfo":	{
+						"host": "lor.availabs.org",
+						"user": "postgres",
+						"password": "transit",
+						"database": "HPMS",
+						"port": 5432
+					},
+					"queries": [
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v = 5"
+								]
+				}
+			}
+		},
+		"newyork2012_6": {
+			"allowed origin": "*",
+			"provider": {
+				"class": "TileStache.Goodies.VecTiles:Provider",
+				"kwargs": {
+					"clip": true,
+				    "dbinfo":	{
+						"host": "lor.availabs.org",
+						"user": "postgres",
+						"password": "transit",
+						"database": "HPMS",
+						"port": 5432
+					},
+					"queries": [
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v = 6"
+								]
+				}
+			}
+		},
+		"newyork2012_7": {
+			"allowed origin": "*",
+			"provider": {
+				"class": "TileStache.Goodies.VecTiles:Provider",
+				"kwargs": {
+					"clip": true,
+				    "dbinfo":	{
+						"host": "lor.availabs.org",
+						"user": "postgres",
+						"password": "transit",
+						"database": "HPMS",
+						"port": 5432
+					},
+					"queries": [
+								"SELECT google_shape AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM newyork2012 WHERE f_system_v = 7"
+								]
+				}
+			}
+		},
+
+
+		"pennsylvania2012_1": {
+			"allowed origin": "*",
+			"provider": {
+				"class": "TileStache.Goodies.VecTiles:Provider",
+				"kwargs": {
+					"clip": true,
+				    "dbinfo":	{
+						"host": "lor.availabs.org",
+						"user": "postgres",
+						"password": "transit",
+						"database": "HPMS",
+						"port": 5432
+					},
+					"queries": [
+								"SELECT ST_Transform(the_geom, 900913) AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM pennsylvania2012 WHERE f_system_v = 1"
+								]
+				}
+			}
+		},
+		"pennsylvania2012_2": {
+			"allowed origin": "*",
+			"provider": {
+				"class": "TileStache.Goodies.VecTiles:Provider",
+				"kwargs": {
+					"clip": true,
+				    "dbinfo":	{
+						"host": "lor.availabs.org",
+						"user": "postgres",
+						"password": "transit",
+						"database": "HPMS",
+						"port": 5432
+					},
+					"queries": [
+								"SELECT ST_Transform(the_geom, 900913) AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM pennsylvania2012 WHERE f_system_v = 2"
+								]
+				}
+			}
+		},
+		"pennsylvania2012_3": {
+			"allowed origin": "*",
+			"provider": {
+				"class": "TileStache.Goodies.VecTiles:Provider",
+				"kwargs": {
+					"clip": true,
+				    "dbinfo":	{
+						"host": "lor.availabs.org",
+						"user": "postgres",
+						"password": "transit",
+						"database": "HPMS",
+						"port": 5432
+					},
+					"queries": [
+								"SELECT ST_Transform(the_geom, 900913) AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM pennsylvania2012 WHERE f_system_v = 3"
+								]
+				}
+			}
+		},
+		"pennsylvania2012_4": {
+			"allowed origin": "*",
+			"provider": {
+				"class": "TileStache.Goodies.VecTiles:Provider",
+				"kwargs": {
+					"clip": true,
+				    "dbinfo":	{
+						"host": "lor.availabs.org",
+						"user": "postgres",
+						"password": "transit",
+						"database": "HPMS",
+						"port": 5432
+					},
+					"queries": [
+								"SELECT ST_Transform(the_geom, 900913) AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM pennsylvania2012 WHERE f_system_v = 4"
+								]
+				}
+			}
+		},
+		"pennsylvania2012_5": {
+			"allowed origin": "*",
+			"provider": {
+				"class": "TileStache.Goodies.VecTiles:Provider",
+				"kwargs": {
+					"clip": true,
+				    "dbinfo":	{
+						"host": "lor.availabs.org",
+						"user": "postgres",
+						"password": "transit",
+						"database": "HPMS",
+						"port": 5432
+					},
+					"queries": [
+								"SELECT ST_Transform(the_geom, 900913) AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM pennsylvania2012 WHERE f_system_v = 5"
+								]
+				}
+			}
+		},
+		"pennsylvania2012_6": {
+			"allowed origin": "*",
+			"provider": {
+				"class": "TileStache.Goodies.VecTiles:Provider",
+				"kwargs": {
+					"clip": true,
+				    "dbinfo":	{
+						"host": "lor.availabs.org",
+						"user": "postgres",
+						"password": "transit",
+						"database": "HPMS",
+						"port": 5432
+					},
+					"queries": [
+								"SELECT ST_Transform(the_geom, 900913) AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM pennsylvania2012 WHERE f_system_v = 6"
+								]
+				}
+			}
+		},
+		"pennsylvania2012_7": {
+			"allowed origin": "*",
+			"provider": {
+				"class": "TileStache.Goodies.VecTiles:Provider",
+				"kwargs": {
+					"clip": true,
+				    "dbinfo":	{
+						"host": "lor.availabs.org",
+						"user": "postgres",
+						"password": "transit",
+						"database": "HPMS",
+						"port": 5432
+					},
+					"queries": [
+								"SELECT ST_Transform(the_geom, 900913) AS __geometry__, state_code AS state, aadt_vn AS aadt, f_system_v AS type FROM pennsylvania2012 WHERE f_system_v = 7"
+								]
+				}
+			}
+		}
+	}
+
+}

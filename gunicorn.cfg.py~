@@ -1,0 +1,9 @@
+import sys
+import Pillow.Image
+sys.modules['Image'] = Pillow.Image
+
+bind = '127.0.0.1:8000'
+
+workers = 4
+
+timeout = 300
