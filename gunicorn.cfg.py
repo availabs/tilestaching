@@ -2,7 +2,7 @@ import sys
 import PIL.Image		
 sys.modules['Image'] = PIL.Image		
 		
-bind = '0.0.0.0:8000'		
+bind = '0.0.0.0:1331'		
 		
 workers = 4		
 		
